@@ -38,6 +38,7 @@ app.post("/", function (req, res) {
     const options = {
         method: "POST",
         auth: "khatrijiraj:4178a53fe765caf76dc8a0dc0e09fe07-us14"
+        //disabled api key! to prevent usage since code in publically pushed on github
     }
 
     const request = https.request(url, options, function (response) {
